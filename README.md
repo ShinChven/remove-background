@@ -16,20 +16,23 @@ RMBG is a command-line tool that removes the background from a person's photo us
 
 ## Installation
 
-1. Clone this repository or download the source code:
+To install the latest version directly from the GitHub repository, run:
 
 ```
-git clone https://github.com/ShinChven/remove-background.git
-cd rmbg
-```
-
-2. Install the package and its dependencies:
-
-```
-pip install .
+pip install git+https://github.com/ShinChven/remove-background.git
 ```
 
 This will install the `rmbg` command-line tool and all required dependencies.
+
+## Upgrading
+
+To upgrade RMBG to the latest version, you can use the following command:
+
+```
+pip install --upgrade git+https://github.com/ShinChven/remove-background.git
+```
+
+This will fetch and install the most recent version of RMBG from the GitHub repository.
 
 ## Usage
 
